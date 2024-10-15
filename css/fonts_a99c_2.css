@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url("../fonts/12421_b176_29.eot");
+    src: url("../fonts/12421_b176_29.eot#iefix") format("embedded-opentype"), url("../fonts/12421_831f_30.woff") format("woff"), url("../fonts/12421_7837_31.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}

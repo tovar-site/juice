@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ua_UK">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://i.ibb.co/KwXbcKf/favicon-32x32.png" type="image/x-icon">
+            <title>Якась проблема...!</title>
+    </head>
+
+<body>
+<div class="main">
+    <div class="container">
+        <div class="order-info">
+                            <h4 style="color: darkred;">Що щось пішло не так, і форма не була відправлена...</h4>
+                <h2 style="font-weight: 700; color: green">Будь ласка, заповніть форму ще раз!</h2>
+                <a href="javascript:history.back()" class="btn btn-error" style="text-transform: uppercase;">Заповнити
+                    форму ще раз</a>
+            
+        </div>
+    </div>
+</div>
+<style>body {
+        background-image: url('https://i.ibb.co/gmNVzPD/photo-1560264280-88b68371db39.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 0px;
+        margin: 0px;
+        font-family: Tahoma, sans-serif;
+    }
+
+    .container {
+        width: 90%;
+        max-width: 600px;
+    }
+
+    .main {
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(195, 195, 195, .7);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .order-info {
+        padding: 20px;
+        background-color: #f5f5f5;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center
+    }
+
+    .order-info h2 {
+        font-weight: 700;
+        margin-bottom: 30px
+    }
+
+    .btn {
+        text-transform: uppercase;
+        text-decoration: none;
+        color: white;
+        padding: 16px 30px;
+        border-radius: 8px;
+        font-weight: 700;
+        cursor: pointer;
+        transition: .4s;
+        margin-top: 0px
+    }
+
+    .btn.btn-success {
+        border: 2px solid #21b021;
+        background-color: #1fae1f;
+    }
+
+    .btn.btn-success:hover {
+        border: 2px solid #0c880c;
+        background-color: #0c880c;
+    }
+
+    .btn.btn-error {
+        border: 2px solid green;
+        background-color: green;
+    }
+
+    .btn.btn-error:hover {
+        border: 2px solid #770e0e;
+        background-color: #770e0e;
+    }
+</style>
+
+</body>
+
+</html>
